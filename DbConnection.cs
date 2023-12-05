@@ -14,22 +14,10 @@ namespace ais
         private static DbConnection instance;
         private static MySqlConnection conn;
 
-        /*
         private static string server = "mysql6008.site4now.net";
         private static string database = "db_aa2681_erikasr";
         private static string username = "aa2681_erikasr";
         private static string password = "password123";
-        */
-        /*
-        private static string server = "192.168.0.159";
-        private static string database = "ais_duomenu_baze";
-        private static string username = "erikasAIS";
-        private static string password = "123ais";
-        */
-        private static string server = "127.0.0.1";
-        private static string database = "ais_duomenu_baze";
-        private static string username = "root";
-        private static string password = "";
         private static string constring = $"SERVER={server};DATABASE={database};UID={username};PASSWORD={password};";
 
         public DbConnection()
